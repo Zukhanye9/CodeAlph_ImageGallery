@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>South African Landscapes Gallery</title>
+    <link href="Content/styles.css" rel="stylesheet" />
+</head>
+<body>
+    <h1>Tour of South African Landscapes</h1>
+    <p class="info-text">Click on any image below to see its details.</p>
+    <div class="gallery">
+        <div class="image-container">
+            <img class="image-button" src="Images/WhatsApp Image 2024-09-08 at 22.07.06.jpeg" data-id="tableMountain" />
+            <p>Table Mountain</p>
+        </div>
+        <div class="image-container">
+            <img class="image-button"src="Images/WhatsApp Image 2024-09-08 at 22.07.34.jpeg" data-id="kruger" />
+            <p>Kruger National Park</p>
+        </div>
+        <div class="image-container">
+            <img class="image-button"src="Images/WhatsApp Image 2024-09-08 at 22.08.16.jpeg" data-id="drakensberg" />
+            <p>Drakensberg Mountains</p>
+        </div>
+        <div class="image-container">
+            <img class="image-button"src="Images/WhatsApp Image 2024-09-08 at 22.09.20.jpeg" data-id="blydeRiver" />
+            <p>Blyde River Canyon</p>
+        </div>
+        <div class="image-container">
+            <img class="image-button" src="Images/WhatsApp Image 2024-09-08 at 22.09.45.jpeg" data-id="robbenIsland" />
+            <p>Robben Island</p>
+        </div>
+        <div class="image-container">
+            <img class="image-button"src="Images/WhatsApp Image 2024-09-08 at 22.05.50.jpeg" data-id="eastLondonCityHall" />
+            <p>East London City Hall</p>
+        </div>
+        <div class="image-container">
+            <img class="image-button"src="Images/WhatsApp Image 2024-09-08 at 22.06.39.jpeg" data-id="eastLondonBeach" />
+            <p>East London Beach</p>
+        </div>
+        <div class="image-container">
+            <img class="image-button"src="Images/WhatsApp Image 2024-09-08 at 22.10.47.jpeg" data-id="sunsetKaroo" />
+            <p>Sunset over the Karoo</p>
+        </div>
+        <div class="image-container">
+            <img class="image-button" src="Images/WhatsApp Image 2024-09-08 at 22.11.43.jpeg" data-id="chapmanPeak" />
+            <p>The famous Chapman Peak</p>
+        </div>
+        <div class="image-container">
+            <img class="image-button" src="Images/WhatsApp Image 2024-09-08 at 23.07.28 (1).jpeg" data-id="tsitsikamma" />
+            <p>Tsitsikamma National Park</p>
+        </div>
+        <div class="image-container">
+            <img class="image-button"src="Images/WhatsApp Image 2024-09-08 at 23.07.28.jpeg" data-id="archRock" />
+            <p>Arch Rock</p>
+        </div>
+        <div class="image-container">
+            <img class="image-button"src="Images/WhatsApp Image 2024-09-08 at 23.18.41.jpeg" data-id="unionBuilding" />
+            <p>Union Building</p>
+        </div>
+    </div>
+
+    <div id="modal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img id="modal-image" class="modal-content" />
+        <div id="modal-caption" class="caption"></div>
+    </div>
+
+    <footer>
+        <p>© 2024 South African Landscapes Gallery. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
